@@ -1,0 +1,114 @@
+.header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 7vh;
+    box-shadow: 5px 4px 20px 2px rgba(0,0,0,0.58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: white;
+}
+.menuImg{
+    height: 80%;
+    display: none;
+}
+.btnContein1{
+    width: 20%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnContein1 a{
+    width: 60%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnContein1 a img{
+    height: 4vh;
+}
+.btnContein2{
+    width: 40%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnContein2 img{
+    width: 7%;
+    display: none;
+}
+.btn{
+    cursor: pointer;
+    border: none;
+    width: 20%;
+    height: 5vh;
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgb(189, 187, 187);
+}
+.btnHome{
+    color:#AC1313
+}
+.btnContact{
+    border-right: 1px solid black;
+}
+.btnContein2 a{
+    text-decoration: none;
+    color: black;
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnContein2 a:hover{
+    background-color: rgb(189, 187, 187);
+}
+.btnContein2 a span{
+    margin-left: 7px;
+}
+@media (max-width:1030px) {
+    .menuImg{
+        display: block;
+    }
+    .btnContein2{
+        width: 100%;
+        height:100vh;
+        position: absolute;
+        flex-direction: column;
+        top: -100vh;
+        background-color: white;
+        z-index: 999;
+    }
+    .btnContact{
+        border: none;
+    }
+    .btnContein2 img{
+        display: block;
+    }
+    .btnContein2 a img{
+        height: 20px;
+        width: auto;
+    }
+}
+@media (max-width:800px) {
+    .btnContein1 a img{
+        height: auto;
+        width: 80%;
+    }
+    .btnContein1{
+        width: 30%;
+    }
+}
+@media (max-width:590px) {
+    .btnContein1 a img{
+        width: 100%;
+    }
+}
+
