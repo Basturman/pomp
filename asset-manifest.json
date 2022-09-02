@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/basturman.github.io/pomp/static/css/main.bb770c85.css",
+    "main.js": "/basturman.github.io/pomp/static/js/main.ec3b7d47.js",
+    "static/media/section5Image1.png": "/basturman.github.io/pomp/static/media/section5Image1.258737d04e3c1d247829.png",
+    "static/media/back1Vaz.png": "/basturman.github.io/pomp/static/media/back1Vaz.b61aa67c65530740150c.png",
+    "static/media/back1.png": "/basturman.github.io/pomp/static/media/back1.14b6b957fc5de8880913.png",
+    "static/media/section3Image2.png": "/basturman.github.io/pomp/static/media/section3Image2.67a90325000658bb642d.png",
+    "static/media/section3Image1.png": "/basturman.github.io/pomp/static/media/section3Image1.34d00b7b04d502b9952c.png",
+    "static/media/cancel.png": "/basturman.github.io/pomp/static/media/cancel.5949e4245eac826e4fad.png",
+    "index.html": "/basturman.github.io/pomp/index.html",
+    "main.bb770c85.css.map": "/basturman.github.io/pomp/static/css/main.bb770c85.css.map",
+    "main.ec3b7d47.js.map": "/basturman.github.io/pomp/static/js/main.ec3b7d47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb770c85.css",
+    "static/js/main.ec3b7d47.js"
+  ]
+}
