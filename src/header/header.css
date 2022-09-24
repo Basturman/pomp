@@ -85,6 +85,7 @@
         top: -100vh;
         background-color: white;
         z-index: 999;
+        transition:0.4s;
     }
     .btnContact{
         border: none;
